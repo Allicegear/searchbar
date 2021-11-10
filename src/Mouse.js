@@ -11,7 +11,7 @@ function Mouse  (props){
   return(
     <div style={{ height: '100vh' }} onMouseMove={handlePostionChange}>
       {props.render(postion)}
-      <p>The current mouse position is ({postion.x}, {postion.y})</p>
+      <p>The current little mouse position is ({postion.x}, {postion.y})</p>
     </div>
   )
 }
